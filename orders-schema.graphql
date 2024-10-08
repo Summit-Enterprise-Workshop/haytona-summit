@@ -41,6 +41,11 @@ type Order @key(fields: "id") {
   The total cost of the order
   """
   orderTotal: Float
+
+  """
+  colour
+  """
+  colour: String
 }
 
 type User @key(fields: "id") {
