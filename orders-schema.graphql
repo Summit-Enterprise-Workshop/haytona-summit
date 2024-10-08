@@ -41,7 +41,6 @@ type Order @key(fields: "id") {
   The total cost of the order
   """
   orderTotal: Float
-  newField: String
 }
 
 type User @key(fields: "id") {
